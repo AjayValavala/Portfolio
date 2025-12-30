@@ -28,12 +28,20 @@
   <path class="parenthesis" d="M80,80 Q40,200 80,320" />
 
   <!-- Perfectly Centered Name -->
-  <text class="name-text" x="110" y="260" style="animation-delay: 0.6s">H</text>
-  <text class="name-text" x="240" y="260" style="animation-delay: 0.9s">A</text>
-  <text class="name-text" x="370" y="260" style="animation-delay: 1.2s">R</text>
-  <text class="name-text" x="500" y="260" style="animation-delay: 1.5s">S</text>
-  <text class="name-text" x="620" y="260" style="animation-delay: 1.8s">H</text>
-  <text class="name-text" x="750" y="260" style="animation-delay: 2.1s">A</text>
+  <text class="name-text" x="110" y="260" style="animation-delay: 0.6s">A</text>
+  <text class="name-text" x="240" y="260" style="animation-delay: 0.9s">J</text>
+  <text class="name-text" x="370" y="260" style="animation-delay: 1.2s">A</text>
+  <text class="name-text" x="500" y="260" style="animation-delay: 1.5s">Y</text>
+  <text class="name-text" x="620" y="260" style="animation-delay: 1.8s">V</text>
+  <text class="name-text" x="760" y="260" style="animation-delay: 2.1s">A</text>
+  <text class="name-text" x="880" y="260" style="animation-delay: 2.4s">L</text>
+  <text class="name-text" x="1000" y="260" style="animation-delay: 2.7s">A</text>
+  <text class="name-text" x="1120" y="260" style="animation-delay: 3.0s">V</text>
+  <text class="name-text" x="1240" y="260" style="animation-delay: 3.3s">A</text>
+  <text class="name-text" x="1360" y="260" style="animation-delay: 3.6s">L</text>
+  <text class="name-text" x="1480" y="260" style="animation-delay: 3.9s">A</text>
+
+
 
   <!-- Right Parenthesis (Mirrored and centered) -->
   <path class="parenthesis" d="M920,80 Q960,200 920,320" style="animation-delay: 2.4s" />

@@ -35,7 +35,7 @@ const Footer = () => (
         </div>
 
         <div className="grid grid-cols-2 gap-2 justify-items-center md:justify-items-start">
-          <a href="./Harsha_Resume.pdf" target="_blank">
+          <a href="Ajay_resume.pdf" target="_blank">
             <Button styles="mt-10 inline-flex items-center justify-center" text="Resume" icon={AiFillGithub} />
           </a>
           <a href={repoLink} target="_blank">
@@ -51,13 +51,13 @@ const Footer = () => (
       <div className="mr-8 mt-10 md:mt-0 md:ml-auto">
         <img
           src={harsha}
-          alt="Harsha Pragallapati"
+          alt="Ajay Valavala"
           className="w-[175px] h-[175px] md:w-[200px] md:h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
         />
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
-      <p>Made with ♥️ by Harsha Pragallapati</p>
+      <p>Made with ♥️ by Ajay Valavala</p>
     </div>
   </footer>
 );

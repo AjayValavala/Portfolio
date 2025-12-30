@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <style>
+    @keyframes typing {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes draw {
+      to { stroke-dashoffset: 0; }
+    }
+    .name-text {
+      font: bold 190px 'Montserrat', sans-serif;
+      fill: #ffffff;
+      opacity: 0;
+      animation: typing 0.5s steps(1) forwards;
+    }
+    .parenthesis {
+      stroke: #1aede6;
+      stroke-width: 8;
+      fill: none;
+      stroke-linecap: round;
+      stroke-dasharray: 250;
+      stroke-dashoffset: 250;
+      animation: draw 1s forwards 0.5s;
+    }
+  </style>
+
+  <!-- Left Parenthesis -->
+  <path class="parenthesis" d="M80,80 Q40,200 80,320" />
+
+  <!-- Name: AJAY.V -->
+  <text class="name-text" x="160" y="260" style="animation-delay: 0.6s">A</text>
+  <text class="name-text" x="300" y="260" style="animation-delay: 0.9s">J</text>
+  <text class="name-text" x="440" y="260" style="animation-delay: 1.2s">A</text>
+  <text class="name-text" x="580" y="260" style="animation-delay: 1.5s">Y</text>
+  <text class="name-text" x="700" y="260" style="animation-delay: 1.8s">.</text>
+  <text class="name-text" x="780" y="260" style="animation-delay: 2.1s">V</text>
+
+  <!-- Right Parenthesis -->
+  <path class="parenthesis" d="M920,80 Q960,200 920,320" style="animation-delay: 2.4s" />
+</svg>

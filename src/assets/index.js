@@ -12,7 +12,7 @@ import medic from "./medic.png"
 import codechef from "./codechef.png"
 import nipuna from "./nipuna.png"
 import employee from "./employee.png"
-import harsha_svg from "./harsha.svg"
+import harsha_svg from "./ajay.svg"
 import gfg from "./gfg-logo.svg"
 import library from "./library.jpg"
 

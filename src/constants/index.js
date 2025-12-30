@@ -50,10 +50,10 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1CgPH2BrtkDv6DwdwWWq-joaR4VD6uTeh/view?usp=drivesdk";
-export const repoLink = "https://github.com/HarshaPragallapati/HARSHA_PORTFOLIO";
+export const resumeLink = "https://www.linkedin.com/in/satya-sai-ajay-valavala-4a12a9285/";
+export const repoLink = "https://github.com/AjayValavala/Portfolio/tree/main";
 
-export const callToAction = "https://www.linkedin.com/in/harsha-pragallapati-16a61b324";
+export const callToAction = "https://www.linkedin.com/in/satya-sai-ajay-valavala-4a12a9285/";
 
 export const navLinks = [
   {
@@ -88,17 +88,17 @@ export const educationList = [
     icon: srkr,
     title: "SRKR Engineering College, Bhimavaram",
     degree: "B.Tech in CSE",
-    duration: "November 2022 - May 2026",
+    duration: "November 2022 - April 2026",
     content1: "Studied foundational software engineering subjects including DSA, DBMS, Operating Systems etc.",
-    content2: "CGPA: 9.19",
+    content2: "CGPA: 8.85",
   },
   {
     id: "education-2",
     icon: aditya,
-    title: "Aditya Junior College, Palakollu",
+    title: "SASI Junior College, Velivennu",
     degree: "Intermediate",
     duration: "September 2020 - August 2022",
-    content1: "Graduated with a percentage of 93.2 ",
+    content1: "Graduated with a percentage of 97.3 ",
   },
 ];
 
@@ -106,12 +106,12 @@ export const achievements = [
   {
     id: "a-1",
     icon: leetcode,
-    event: "LeetCode | 200+ problems solved",
+    event: "LeetCode ",
     position: "",
     content1: "Developed strong algorithmic thinking through regular coding challenges.",
     content2: "Explored topics including trees, backtracking, graphs, greedy algorithms and dynamic programming etc.",
     content3: "Improved efficiency and accuracy in solving complex problems.",
-    project: "https://www.leetcode.com/harsha_1824",
+    project: "https://leetcode.com/u/valavalasatyasaiajay/",
   },
   {
     id: "a-2",
@@ -119,10 +119,10 @@ export const achievements = [
     event: "GeekForGeeks",
     position: "",
     content1: "Consistent problem solver on GeeksforGeeks with strong grasp on data structures and algorithms.",
-    content2: "Solved 50+ problems spanning arrays, trees, graphs and dynamic programming.",
-    project: "https://www.geeksforgeeks.org/user/harshapragalhhbp/",
+    content2: "Solved problems spanning arrays, trees, graphs and dynamic programming.",
+    project: "https://www.geeksforgeeks.org/profile/ajayvalavala",
   },
-  {
+  /*{
     id: "a-2",
     icon: codechef,
     event: "CodeChef",
@@ -130,7 +130,7 @@ export const achievements = [
     content1: "Active competitive programmer on CodeChef and a regular participant in weekly contests.",
     content2: "Solved 50+ problems across diverse DSA topics.",
     project: "https://www.codechef.com/users/harsha1824",
-  }
+  }*/
 ];
 
 export const skills = [
@@ -176,7 +176,7 @@ export const skills = [
         id: "f-1",
         icon: SiReact,
         name: "ReactJS",
-      },
+      },/*
       
       {
         id: "f-2",
@@ -208,7 +208,7 @@ export const skills = [
         id: "f-7",
         icon: SiSpringsecurity,
         name: "Spring Security",
-      },
+      },*/
       {
         id: "f-8",
         icon: SiBootstrap,
@@ -223,7 +223,7 @@ export const skills = [
         id: "t-1",
         icon: SiMysql,
         name: "MySQL",
-      },
+      },/*
       {
         id: "t-2",
         icon: SiMongodb,
@@ -233,7 +233,7 @@ export const skills = [
         id: "t-3",
         icon: SiPostman,
         name: "Postman",
-      },
+      },**/
       {
         id: "t-4",
         icon: SiVisualstudiocode,
@@ -248,7 +248,7 @@ export const skills = [
         id: "t-6",
         icon: AiFillGithub,
         name: "GitHub",
-      },
+      },/*
       {
         id: "t-7",
         icon: SiIntellijidea,
@@ -258,7 +258,7 @@ export const skills = [
         id: "t-8",
         icon: SiNetlify,
         name: "Netlify",
-      }
+      }*/
     ],
   },
 ];
@@ -269,23 +269,23 @@ export const experiences = [
     logo: ISTE,
     positions: [
       {
-        title: "Web Lead",
-        duration: "Sep 2024 - Present",
+        title: "Organizer, SRKR ISTE Student Chapter",
+        duration: "Sep 2024 ",
         content: [
           {
-            text: "Led a team of 6 peer developers while also overlooking multiple modules.",
+            text: "Helped plan and coordinate technical and student-focused events, supporting participation and smooth execution.",
             link: "",
           },
           {
-            text: "Developed an interactive website for Nipuna, AP's premier techno-management symposium with over 17 events.",
+            text: "Handled event logistics like registrations, schedules, venue setup, and communication.",
             link:""
           },
           {
-            text: "Integrated a responsive UI, event registration system, and backend functionalities using Node.js.",
+            text: "Worked with volunteers and speakers to ensure everything ran on time.",
             link: "",
           },
           {
-            text: "Deployment & Version Control: Managed GitHub repositories, and deployed applications on Hostinger, ensuring seamless accessibility and performance.",
+            text: "Managed registrations for 150+ participants across multiple events.",
             link: "",
           },
         ],
@@ -295,7 +295,7 @@ export const experiences = [
 ];
 
 export const projects = [
-  {
+  /*{
     id: "project-1",
     title: "Nipuna25",
     github: "https://github.com/HarshaPragallapati/Nipuna25",
@@ -335,17 +335,47 @@ export const projects = [
         name: "Bootstrap",
       }
     ],
-  },
+  },*/
   
   {
     id: "project-2",
-    title: "Library Management",
-    github: "https://github.com/HarshaPragallapati/Library_Management",
+    title: "Housing Project",
+    github: "https://github.com/AjayValavala/house-rental-system-project/tree/main/3-2",
     link: "",
     image: library,
     content:
-      "A web-based library management system built with Java and Spring Boot. The system provides a simple interface to manage books, authors, categories, and publishers with full CRUD operations.",
+      "Designed and developed a responsive real estate website showcasing property listings with buy, rent, and plots categories,enabling users to explore different housing options quickly.",
     stack: [
+      {
+        id: "icon-1",
+        icon: SiHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-2",
+        icon: SiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+      {
+        id: "icon-4",
+        icon: SiNodedotjs,
+        name: "Node.js"
+      },/*
+      {
+        id: "icon-5",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-6",
+        icon: SiBootstrap,
+        name: "Bootstrap",
+      }
       {
         id: "icon-1",
         icon: SiSpringboot,
@@ -366,10 +396,10 @@ export const projects = [
         id: "icon-4",
         icon: SiBootstrap,
         name: "Bootstrap",
-      }
+      }*/
     ],
   },
-
+/*
   {
     id: "project-3",
     title: "Employee Management",
@@ -401,12 +431,12 @@ export const projects = [
         name: "Spring Security"
       }
     ],
-  },
+  },*/
   {
     id: "project-4",
     title: "Portfolio",
-    github: "https://github.com/HarshaPragallapati/HARSHA_PORTFOLIO",
-    link: "https://harsha-pragallapati.netlify.app/",
+    github: "https://github.com/AjayValavala/Portfolio/tree/main",
+    link: "#",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [
@@ -429,12 +459,12 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Insurance Price Prediction",
-    github: "https://github.com/HarshaPragallapati/MedicalInsurancePrediction",
+    title: "Diamond Price Prediction",
+    github: "https://github.com/AjayValavala/diamod-price-prediction",
     link: "",
     image: medic,
     content:
-      "Developed a web app for medical insurance price prediction with user registration, login, and an intuitive interface for predictions.",
+      "Developed a Meachine Learning Model for Diamond price prediction ,intuitive interface for predictions.",
     stack: [
       {
         id: "icon-1",
@@ -532,8 +562,8 @@ export const extraCurricular = [
   {
     id: 1,
     organisation: "SRKR ISTE",
-    title: "Executive Body Member",
-    duration: "August 2024 - Present",
+    title: "Organizer",
+    duration: "September 2024 ",
     content: [
       {
         text: "Actively contributing to the professional growth and collaboration among ISTE members by organizing various interactive events and workshops.",
@@ -553,36 +583,36 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/harsha-pragallapati-16a61b324",
+    link: "https://www.linkedin.com/in/satya-sai-ajay-valavala-4a12a9285/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://github.com/HarshaPragallapati",
+    link: "https://github.com/AjayValavala",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:harshapragallapati2005@gmail.com",
+    link: "mailto:valavalasatyasaiajay@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/harsha_pragallapati",
+    link: "#",
   },
   {
     id: "social-media-5",
     icon: SiLeetcode,
-    link: "https://www.leetcode.com/harsha_1824",
+    link: "https://leetcode.com/u/valavalasatyasaiajay/",
   }
 ];
 
 // professional summary
 export const aboutMe = {
-    name: "Harsha Pragallapati",
-    githubUsername: 'HarshaPragallapati',
-    tagLine: "Java Full Stack Developer",
-    intro: "Java Full Stack Developer from India who is either busy improving his craft or pondering over the next big idea."
+    name: "Satya Sai Ajay Valavala",
+    githubUsername: 'AjayValavala',
+    tagLine: "Full Stack Developer",
+    intro: "Aspiring full-stack developer with a focus on Java and modern web technologies, always learning and creating.."
 }
 
 
