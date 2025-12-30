@@ -20,7 +20,7 @@
   
   "engines": {
   "node": ">=18"
-}
+},
 
   "devDependencies": {
     "@types/react": "^18.0.17",
