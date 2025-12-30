@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+npm i -D tailwindcss@latest postcss@latest autoprefixer@latest
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
@@ -24,4 +26,5 @@ module.exports = {
     },
   },
   plugins: [],
+  
 };
