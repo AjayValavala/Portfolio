@@ -1,31 +1,32 @@
-/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Root variables */
 :root {
-  --black-gradient: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
   --scrollbar-primary: #00040f;
   --scrollbar-secondary: lightblue;
 }
 
-/* Global styles */
 * {
   scroll-behavior: smooth;
 }
 
-/* Firefox scrollbar */
+/* Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-secondary) var(--scrollbar-primary);
 }
 
-/* Chrome, Edge, Safari scrollbar */
+/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 15px;
 }
@@ -41,7 +42,6 @@
   border: 3px solid var(--scrollbar-primary);
 }
 
-/* Text gradients */
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -58,7 +58,6 @@
   text-fill-color: transparent;
 }
 
-/* Background gradients */
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -72,49 +71,73 @@
 }
 
 .bg-black-gradient {
-  background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
 
 .bg-gray-gradient {
-  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101d 95.11%);
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
 }
 
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
 
-/* Shadows */
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-/* Sidebar animation */
 .sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-@keyframes slide-top {
+@-webkit-keyframes slide-top {
   0% {
+    -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
   100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
-/* Feature card hover */
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
 
-/* Feedback cards */
 .feedback-container .feedback-card:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .feedback-card {
@@ -125,20 +148,22 @@
   background: var(--black-gradient);
 }
 
-/* Decorative gradients */
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
 }
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
 }
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
 }
 
-/* Tooltip */
+/* tooltip */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -175,20 +200,18 @@
   visibility: visible;
 }
 
-/* Blog title */
 .blog-title {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  line-height: 32px;
-  max-height: 64px;
-  -webkit-line-clamp: 2;
+  line-height: 32px;     /* fallback */
+  max-height: 64px;      /* fallback */
+  -webkit-line-clamp: 2; /* number of lines to show */
   -webkit-box-orient: vertical;
 }
 
-/* Custom utility layer */
-@layer utilities {
-  .nav-styles {
+@layer utilities{
+  .nav-styles{
     @apply w-full fixed top-0 left-0 flex justify-between items-center bg-opacity-80 shadow-lg z-50 backdrop-blur-md border-b border-white/10;
   }
 }
