@@ -17,6 +17,11 @@
     "react-lottie-player": "1.5.4",
     "smoothscroll-polyfill": "^0.4.4"
   },
+  
+  "engines": {
+  "node": ">=18"
+}
+
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
