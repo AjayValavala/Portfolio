@@ -611,7 +611,7 @@ export const socialMedia = [
 
 // professional summary
 export const aboutMe = {
-    name: "SATYA SAI AJAY VALAVALA",
+    name: "Satya Sai Ajay Valavala",
     githubUsername: 'AjayValavala',
     tagLine: "Full Stack Developer",
     intro: "Aspiring full-stack developer with a focus on Java and modern web technologies, always learning and creating.."
