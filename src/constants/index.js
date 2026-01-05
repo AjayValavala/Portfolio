@@ -90,7 +90,7 @@ export const educationList = [
     degree: "B.Tech in CSE",
     duration: "November 2022 - April 2026",
     content1: "Studied foundational software engineering subjects including DSA, DBMS, Operating Systems etc.",
-    content2: "CGPA: 8.85",
+    content2: "CGPA: 8.75",
   },
   {
     id: "education-2",
@@ -434,31 +434,6 @@ export const projects = [
   },*/
   {
     id: "project-4",
-    title: "Portfolio",
-    github: "https://github.com/AjayValavala/Portfolio/tree/main",
-    link: "#",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
-  {
-    id: "project-5",
     title: "Diamond Price Prediction",
     github: "https://github.com/AjayValavala/diamod-price-prediction",
     link: "",
@@ -488,6 +463,33 @@ export const projects = [
       }
     ],
   },
+  
+  {
+    id: "project-5",
+    title: "Portfolio",
+    github: "https://github.com/AjayValavala/Portfolio/tree/main",
+    link: "#",
+    image: portfolio,
+    content: "Personal portfolio website with React and Tailwind CSS.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+    ],
+  },
+  
   
 ];
 
@@ -609,7 +611,7 @@ export const socialMedia = [
 
 // professional summary
 export const aboutMe = {
-    name: "Satya Sai Ajay Valavala",
+    name: "SATYA SAI AJAY VALAVALA",
     githubUsername: 'AjayValavala',
     tagLine: "Full Stack Developer",
     intro: "Aspiring full-stack developer with a focus on Java and modern web technologies, always learning and creating.."
