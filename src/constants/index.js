@@ -613,7 +613,7 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Satya Sai Ajay Valavala",
     githubUsername: 'AjayValavala',
-    tagLine: "Full Stack Developer",
+    tagLine: "Java Developer",
     intro: "Aspiring full-stack developer with a focus on Java and modern web technologies, always learning and creating.."
 }
 
